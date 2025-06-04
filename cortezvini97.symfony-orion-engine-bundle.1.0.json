@@ -6,7 +6,16 @@
                     "Orion\\OrionEngine\\SymfonyOrionEngine": [
                         "all"
                     ]
-                }
+                },
+                "copy-from-recipe": {
+                    "config/":"%CONFIG_DIR%/",
+                    "views/":"views/",
+                    "orion_functions/":"orion_functions/",
+                    "orion_directives/":"orion_directives/"
+                },
+                "post-install-output": [
+                    "<bg=green;fg=white> Symfony Orion Bundle Installed </>"
+                ]
             },
             "ref": "eaf4d22d691ecfc3bede0c1e449fddbb8b05a455"
         }
