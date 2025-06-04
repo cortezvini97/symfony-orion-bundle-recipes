@@ -1,0 +1,8 @@
+symfony_orion:
+    dir_views: 'views/'
+    cache_dir: 'orion_cache/'
+    directives_dir: 'orion_directives/'
+    functions_dir: 'orion_functions/'
+    debug: false
+    deleteFile: true
+    encore: 'public/build'
