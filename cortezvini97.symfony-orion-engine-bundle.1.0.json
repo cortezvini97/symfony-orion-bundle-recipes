@@ -47,6 +47,18 @@
                         "</html>"
                     ],
                     "executable":false
+                },
+                "views/index.orion.php":{
+                    "contents":[
+                        "@extends('layouts.app')",
+                        "",
+                        "@section('title', \"Hello World\")",
+                        "",
+                        "@section('content')",
+                        "    <p>@helloworld('Hello World')</p>",
+                        "@endsection"
+                    ],
+                    "executable":false
                 }
             },
             "ref": "eaf4d22d691ecfc3bede0c1e449fddbb8b05a455"
