@@ -75,6 +75,18 @@
                         "?>"
                     ],
                     "executable":false
+                },
+                "orion_functions/functions.php":{
+                    "contents":[
+                        "<?php",
+                        "",
+                        "function msg($msg){",
+                        "    echo \"<p>$msg</p>\";",
+                        "}",
+                        "",
+                        "?>"
+                    ],
+                    "executable":false
                 }
             },
             "ref": "eaf4d22d691ecfc3bede0c1e449fddbb8b05a455"
