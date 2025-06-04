@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "cortezvini97/symfony-orion-engine-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Orion\\OrionEngine\\SymfonyOrionEngine": [
+                        "all"
+                    ]
+                }
+            },
+            "ref": "eaf4d22d691ecfc3bede0c1e449fddbb8b05a455"
+        }
+    }
+}
