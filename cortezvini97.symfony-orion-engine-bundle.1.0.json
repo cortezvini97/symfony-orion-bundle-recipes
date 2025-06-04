@@ -59,6 +59,22 @@
                         "@endsection"
                     ],
                     "executable":false
+                },
+                "orion_directives/directives.php":{
+                    "contents":[
+                        "<?php",
+                        "",
+                        "use Orion\\OrionEngine\\Utils\\OrionSymfony;",
+                        "",
+                        "OrionSymfony::directive('helloworld', function ($expression) {",
+                        "   return '<?php echo msg('.$expression.'); ?>';",
+                        "});",
+                        "",
+                        "return OrionSymfony::getAllDirectives();",
+                        "",
+                        "?>"
+                    ],
+                    "executable":false
                 }
             },
             "ref": "eaf4d22d691ecfc3bede0c1e449fddbb8b05a455"
