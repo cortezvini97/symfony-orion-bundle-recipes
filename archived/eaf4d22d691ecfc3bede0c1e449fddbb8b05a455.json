@@ -17,6 +17,38 @@
                     "<bg=green;fg=white> Symfony Orion Bundle Installed </>"
                 ]
             },
+            "files":{
+                "config/packages/symfony_orion.yaml":{
+                    "contents":[
+                        "symfony_orion:",
+                        "    dir_views: 'views/'",
+                        "    cache_dir: 'orion_cache/'",
+                        "    directives_dir: 'orion_directives/'",
+                        "    functions_dir: 'orion_functions/'",
+                        "    debug: false",
+                        "    deleteFile: true",
+                        "    encore: 'public/build'"
+                    ],
+                    "executable":false
+                },
+                "views/layouts/app.orion.php":{
+                    "contents":[
+                        "<!DOCTYPE html>",
+                        "<html lang=\"en\">",
+                        "<head>",
+                        "    <meta charset=\"UTF-8\">",
+                        "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+                        "    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+                        "    <title>@yield('title', 'app')</title>",
+                        "</head>",
+                        "<body>",
+                        "    @yield('content')",
+                        "</body>",
+                        "</html>"
+                    ],
+                    "executable":false
+                }
+            },
             "ref": "eaf4d22d691ecfc3bede0c1e449fddbb8b05a455"
         }
     }
